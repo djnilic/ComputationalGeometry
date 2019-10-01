@@ -171,10 +171,25 @@ class Main(object):
 class Module(object):
     '''
     A helpfull baseclass that reminds you to implement base functionality to fully
-    take advantage of the Main class's facilities. 
+    take advantage of the Main class's facilities.
     '''
     def dispatch(self, events, mouse):
         print("You forgot to override your module's dispatch method.")
+    #end
 
     def setup(self, main):
         print("You forgot to override your module's setup method.")
+    #end
+
+    def mouseButtonDown(self, pos):
+        return
+    #end
+
+    def mouseMove(self, pos):
+        return
+    #end
+
+    def keyPress(self, key):
+        return
+    #end
+#end

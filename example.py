@@ -13,6 +13,8 @@ class ExampleModule(Module):
             if e.type == pygame.KEYDOWN and e.key == pygame.K_q:
                 print("pressed q")
                 main.quit()
+            #end
+        #end
     #end
 
     def setup(self, main):
